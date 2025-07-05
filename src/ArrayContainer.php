@@ -124,6 +124,18 @@ class ArrayContainer implements ContainerInterface
     {
         return $this->elements;
     }
+    
+    /**
+     * Retrieve all keys in the container.
+     *
+     * @return array The array of elements in the container.
+     *
+     * @since PHP 7.0
+     */
+    public function keys(): array
+    {
+        return array_keys($this->elements);
+    }
 
     /**
      * @inheritDoc
