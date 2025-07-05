@@ -1,6 +1,6 @@
 
 {
-  "name": "strucom/dataStructures",
+  "name": "strucom/data-structures",
   "description": "General data structures for PHP projects",
   "minimum-stability": "stable",
   "license": "proprietary",
